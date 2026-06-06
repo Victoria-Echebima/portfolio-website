@@ -1,0 +1,43 @@
+1. Hello chat, I want you to build me a personal portfolio website. I want you to build this step by step with the requirement provided. I will attach a photo of what i want the hero section to look like. Let the menu bar have the following links; Home, About, Projects Contact.
+Let the menu bar be sticky
+Let the hero section also have a download CV button
+I will attach a videoframe of a personal portfolio website template. This will serve as a guide in building the rest of the page. Use the color scheme in the template as a guide .
+
+
+2. Let us build an about section that is like that of the personal portfolio template. 
+-Do not include the download cv button 
+- I will give a summary about me which you would summarise again briefly to fit the section design;
+I'm Victoria Echebima, born on April 23, 2002, in Benin City, Edo State, Nigeria, with roots in Egbu, Owerri North L.G.A of Imo State. I was raised in a supportive family that instilled in me the values of hard work, faith, education, and service to others. These values shaped my early path into nursing, where I found a deep sense of purpose in caring for people. For me, healthcare has always been more than a profession—it's a calling driven by empathy, compassion, and a genuine desire to make a meaningful difference in people's lives.
+
+As I grew in my career, I developed a strong interest in technology and problem-solving, which led me to explore web development. I became fascinated by how digital tools can transform healthcare delivery, improve access to information, and support better patient outcomes. This inspired my goal of building health tech solutions that bridge the gap between care and technology. Balancing nursing with learning full stack development has been challenging, but my determination keeps me going. I'm motivated by the vision of creating platforms and applications that can simplify healthcare processes and positively impact lives on a larger scale.
+
+Outside of my professional journey, I enjoy simple, meaningful experiences that help me relax and express myself. I believe in continuous growth and self-improvement, and I'm driven by the idea that it's never too late to evolve or pursue a bigger vision. Learning web development is not just a career shift for me—it's a step toward building innovative health tech solutions, expanding my impact, and shaping a future that reflects both my passion for helping others and my curiosity for innovation.
+
+
+- -Always still remember to use a mobile first approach, adapt for tablets, desktops and larger screens. 
+-Let my picture be on the left with text on the right as in the template
+
+
+
+3. Next, let us build a projects section similar to that of the template with project image view, Technology tags, project title, short description, hover effect, link to live demo and github repository. Also factor in the following requirements.
+
+-Each project card box should show a high level summary of what the project set out to solve  
+
+-It should also show how you went about it from design to coding to delivery .
+
+- I will attach 4 projects i have done in my full stack program, Use this as a guide in building the section
+
+- Always remeber to add comments in the code 
+
+
+4. Let us build an Education and Experience Section similar to that of the template with 
+-Two cards side-by-side on desktop
+-Education card
+-Experience card
+- Use mobile first approach
+
+
+
+5.Let  us build a Contact Us section exactly like that of the template. continue to follow the consistent color scheme of the rest of the page
+
+6.Let us build a footer section that will include quick links, social media icon links and copyright message similar to that of the template. Let the footer be sticky. 

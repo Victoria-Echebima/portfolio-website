@@ -1,0 +1,301 @@
+:root {
+
+
+        --primary: #28553B;
+        --primary-light: #3D7A58;
+      
+        --accent: #F4B400;
+      
+        --dark: #1F2937;
+        --text: #4B5563;
+      
+        --white: #FFFFFF;
+        --bg: #F8F9FA;
+      
+        --border: #E5E7EB;
+        --shadow:
+      0 8px 30px rgba(15, 23, 42, 0.08);
+      }
+    /* Shadow */
+   
+  
+  
+
+
+  /* ==========================================
+   PROJECTS SECTION
+========================================== */
+
+.projects {
+    padding: 5rem 1.5rem;
+    background: var(--bg);
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .section-subtitle {
+    color: var(--dark);
+    font-weight: 600;
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-bottom: 0.75rem;
+  }
+  
+  .section-header h2 {
+    font-size: 2rem;
+    color: #0f172a;
+    margin-bottom: 1rem;
+  }
+  
+  .section-header h2 span {
+    color: var(--accent);
+  }
+  
+  .section-header p {
+    max-width: 650px;
+    margin-inline: auto;
+    color: var(--text);
+    line-height: 1.8;
+  }
+  
+  /* ==========================================
+     PROJECT GRID
+  ========================================== */
+  
+  .projects-grid {
+    display: grid;
+    gap: 2rem;
+  }
+  
+  /* ==========================================
+     PROJECT CARD
+  ========================================== */
+  
+  .project-card {
+    background: var(--white);
+  
+    border-radius: 20px;
+  
+    overflow: hidden;
+  
+    box-shadow: 0 5px 20px rgba(15, 23, 42, 0.08);
+  
+    transition:
+      transform .35s ease,
+      box-shadow .35s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(15, 23, 42, 0.12);
+  }
+  
+  /* ==========================================
+     PROJECT IMAGE
+  ========================================== */
+  
+  .project-image {
+    overflow: hidden;
+  }
+  
+  .project-image img {
+    width: 100%;
+  
+    display: block;
+  
+    transition: transform .6s ease;
+  }
+  
+  .project-card:hover .project-image img {
+    transform: scale(1.05);
+  }
+  
+  /* ==========================================
+     PROJECT CONTENT
+  ========================================== */
+  
+  .project-content {
+    padding: 1.5rem;
+  }
+  
+  .project-content h3 {
+    color: var(--dark);
+    margin-bottom: 1rem;
+  }
+  
+  .project-content p {
+    color: var(--text);
+    line-height: 1.7;
+  }
+  
+  /* ==========================================
+     TAGS
+  ========================================== */
+  
+  .project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  
+    margin-bottom: 1rem;
+  }
+  
+  .project-tags span {
+  
+    background:
+    rgba(244, 180, 0,0.12) ;
+  
+    color:
+      var(--primary-light);
+  
+    border:
+      
+      1px solid rgba(196, 98, 61, 0.2);
+  
+    padding:
+      .4rem .9rem;
+  
+    border-radius:
+      999px;
+  
+    font-size:
+      .8rem;
+  
+    font-weight:
+      500;
+  }
+  
+  /* ==========================================
+     PROBLEM + PROCESS
+  ========================================== */
+  
+  .problem {
+    margin-bottom: 1rem;
+  }
+  
+  .process {
+    margin-top: 1rem;
+  }
+  
+  .process h4 {
+  
+    color:
+      var(--dark);
+  
+    margin-bottom:
+      .5rem;
+  
+    font-size:
+      1rem;
+  }
+  
+  /* ==========================================
+     LINKS
+  ========================================== */
+  
+  .project-links {
+  
+    display:
+      flex;
+  
+    gap:
+      1rem;
+  
+    margin-top:
+      1.5rem;
+  }
+  
+  .project-links a {
+  
+    text-decoration:
+      none;
+  
+    padding:
+      .85rem 1.25rem;
+  
+    border-radius:
+      10px;
+  
+    font-weight:
+      600;
+  
+    transition:
+      .3s ease;
+  }
+  
+  /* Live Demo */
+  
+  .project-links a:first-child {
+  
+    background:
+      var(--accent);
+  
+    color:
+      white;
+  }
+  
+  .project-links a:first-child:hover {
+  
+    transform:
+      translateY(-2px);
+  }
+  
+  /* Github */
+  
+  .project-links a:last-child {
+  
+    border:
+      1px solid
+      var(--accent);
+  
+    color:
+      var(--dark);
+  }
+  
+  .project-links a:last-child:hover {
+  
+
+  
+    color:
+    #3D7A58;
+  }
+
+
+
+  /* ==========================================
+   TABLET
+========================================== */
+
+@media (min-width: 768px) {
+
+    .projects-grid {
+  
+      grid-template-columns:
+        repeat(2, 1fr);
+    }
+  
+  }
+
+
+  /* ==========================================
+   DESKTOP
+========================================== */
+
+@media (min-width: 1024px) {
+
+    .projects {
+  
+      padding:
+        7rem 3rem;
+    }
+  
+    .section-header h2 {
+  
+      font-size:
+        3rem;
+    }
+  
+  }

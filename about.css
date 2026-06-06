@@ -1,0 +1,116 @@
+/* =====================
+ABOUT
+===================== */
+
+.about{
+    padding: 5rem 1.5rem;
+    background: #fff;
+}
+
+.about-container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.about-image img{
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-tag{
+    display: inline-block;
+
+    color: #1F2937;
+
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    margin-bottom: 1rem;
+}
+
+.name-tag{
+    display: inline-block;
+    color: #28553B;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.about-content h2{
+    font-size: 2.2rem;
+    line-height: 1.2;
+
+    margin-bottom: 1.5rem;
+
+    color: #1F2937;
+}
+
+.about-content h2 span{
+    color: #F4B400;
+}
+
+.about-content p{
+    color:  #4B5563;
+
+    margin-bottom: 1.25rem;
+
+    line-height: 1.8;
+}
+
+/* =====================
+TABLET
+===================== */
+
+@media (min-width: 768px){
+
+    .about{
+        padding: 6rem 2rem;
+    }
+
+    .about-content h2{
+        font-size: 3rem;
+    }
+}
+
+/* =====================
+DESKTOP
+===================== */
+
+@media (min-width: 1024px){
+
+    .about{
+        padding: 8rem 2rem;
+    }
+
+    .about-container{
+        grid-template-columns: 1fr 1.1fr;
+
+        display: grid;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .about-content h2{
+        font-size: 3.5rem;
+    }
+}
+
+/* =====================
+LARGE SCREENS
+===================== */
+
+@media (min-width: 1400px){
+
+    .about-content h2{
+        font-size: 4rem;
+    }
+}
