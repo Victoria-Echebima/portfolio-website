@@ -98,12 +98,6 @@ FLOATING NAVBAR
     transition: 0.3s ease;
 }
 
-/* .nav-links{
-    display:flex;
-    align-items:center;
-    gap:3rem;
-    list-style:none;
-} */
 
 
 
@@ -279,20 +273,6 @@ HERO
     color:#F4B400;
 }
 
-/* =====================
-TABLET
-===================== */
-
-/* @media(min-width:768px){
-
-    .navbar{
-        padding:1.2rem 0;
-    }
-
-    .hero{
-        padding:6rem 0;
-    }
-} */
 
 
 
