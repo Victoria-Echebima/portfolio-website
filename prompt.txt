@@ -3,6 +3,7 @@ Let the menu bar be sticky
 Let the hero section also have a download CV button
 I will attach a videoframe of a personal portfolio website template. This will serve as a guide in building the rest of the page. Use the color scheme in the template as a guide .
 
+1b. Let the menu bar be floating on top of the hero section as seen on the picture above
 
 2. Let us build an about section that is like that of the personal portfolio template. 
 -Do not include the download cv button 
